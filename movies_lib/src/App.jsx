@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import'./App.css';
 
 
@@ -16,6 +16,7 @@ function App() {
         <Link to="/search">Search</Link>
       </nav>
       <h2>Movies Lib</h2>
+      <Outlet />
     </div>
   )
 }
