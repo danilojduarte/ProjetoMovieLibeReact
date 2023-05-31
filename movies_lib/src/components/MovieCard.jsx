@@ -20,4 +20,4 @@ const MovieCard = ({movie, showLink= true}) => {
 
 export default MovieCard;
 
-        // Aula pausa em 32-50 Adiciondo o parametro showLink
+        
